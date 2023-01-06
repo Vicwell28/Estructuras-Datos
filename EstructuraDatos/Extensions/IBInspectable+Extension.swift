@@ -5,7 +5,7 @@
 //  Created by soliduSystem on 06/01/23.
 //
 
-import Foundation
+import UIKit
 
 extension UIView {
     @IBInspectable var shadowColor : UIColor? {

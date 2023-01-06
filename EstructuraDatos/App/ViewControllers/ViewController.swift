@@ -9,11 +9,28 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // MARK: - Override Func
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
+    
+    // MARK: - IBOutlet
+    
+    
+    // MARK: - IBAction
+    
+    
+    // MARK: - Public Func
+    
+    
+    // MARK: - Private Func
+    
+    
+    // MARK: - Services
+    
+    
+    // MARK: - Other
 
-
+    
 }
 
