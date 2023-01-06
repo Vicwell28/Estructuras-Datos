@@ -13,24 +13,38 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+    }
     
     // MARK: - IBOutlet
     
     
     // MARK: - IBAction
     
-    
-    // MARK: - Public Func
-    
-    
-    // MARK: - Private Func
-    
-    
-    // MARK: - Services
-    
-    
-    // MARK: - Other
+}
 
+// MARK: - Public Func
+extension ViewController {
     
 }
 
+// MARK: - Private Func
+extension ViewController {
+    
+}
+
+// MARK: - Services
+extension ViewController {
+    
+}
+
+// MARK: - Other
+extension ViewController {
+    
+}

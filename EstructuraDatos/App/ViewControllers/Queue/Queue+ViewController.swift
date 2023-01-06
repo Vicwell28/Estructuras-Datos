@@ -9,21 +9,42 @@ import UIKit
 
 class Queue_ViewController: UIViewController {
 
+    // MARK: - Override Func
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
 
-        // Do any additional setup after loading the view.
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
     }
-    */
+    
+    // MARK: - IBOutlet
+    
+    
+    // MARK: - IBAction
+    
+}
 
+// MARK: - Public Func
+extension Queue_ViewController {
+    
+}
+
+// MARK: - Private Func
+extension Queue_ViewController {
+    
+}
+
+// MARK: - Services
+extension Queue_ViewController {
+    
+}
+
+// MARK: - Other
+extension Queue_ViewController {
+    
 }
