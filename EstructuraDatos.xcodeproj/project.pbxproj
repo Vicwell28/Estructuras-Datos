@@ -15,6 +15,18 @@
 		C1DAC2782968A0E000E35794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1DAC2762968A0E000E35794 /* LaunchScreen.storyboard */; };
 		C1DAC28E2968A5DB00E35794 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1DAC28D2968A5DB00E35794 /* Colors.xcassets */; };
 		C1DAC2922968A63400E35794 /* IBInspectable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DAC2912968A63400E35794 /* IBInspectable+Extension.swift */; };
+		C1DAC2A72968AA8600E35794 /* GraphMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1DAC2A62968AA8600E35794 /* GraphMain.storyboard */; };
+		C1DAC2A92968AA9500E35794 /* TreeMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1DAC2A82968AA9500E35794 /* TreeMain.storyboard */; };
+		C1DAC2AB2968AAA200E35794 /* LinkedListMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1DAC2AA2968AAA200E35794 /* LinkedListMain.storyboard */; };
+		C1DAC2AF2968AAC500E35794 /* QueueMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1DAC2AE2968AAC500E35794 /* QueueMain.storyboard */; };
+		C1DAC2B12968AAD000E35794 /* StackMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1DAC2B02968AAD000E35794 /* StackMain.storyboard */; };
+		C1DAC2B32968AAE100E35794 /* ArrayMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1DAC2B22968AAE100E35794 /* ArrayMain.storyboard */; };
+		C1DAC2B52968AAFF00E35794 /* Graph+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DAC2B42968AAFF00E35794 /* Graph+ViewController.swift */; };
+		C1DAC2B72968AB0D00E35794 /* Tree+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DAC2B62968AB0D00E35794 /* Tree+ViewController.swift */; };
+		C1DAC2B92968AB1B00E35794 /* LinkedList+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DAC2B82968AB1B00E35794 /* LinkedList+ViewController.swift */; };
+		C1DAC2BB2968AB2700E35794 /* Queue+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DAC2BA2968AB2700E35794 /* Queue+ViewController.swift */; };
+		C1DAC2BD2968AB3000E35794 /* Stack+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DAC2BC2968AB3000E35794 /* Stack+ViewController.swift */; };
+		C1DAC2BF2968AB3B00E35794 /* Array+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DAC2BE2968AB3B00E35794 /* Array+ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +40,18 @@
 		C1DAC2792968A0E000E35794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1DAC28D2968A5DB00E35794 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		C1DAC2912968A63400E35794 /* IBInspectable+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IBInspectable+Extension.swift"; sourceTree = "<group>"; };
+		C1DAC2A62968AA8600E35794 /* GraphMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GraphMain.storyboard; sourceTree = "<group>"; };
+		C1DAC2A82968AA9500E35794 /* TreeMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TreeMain.storyboard; sourceTree = "<group>"; };
+		C1DAC2AA2968AAA200E35794 /* LinkedListMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LinkedListMain.storyboard; sourceTree = "<group>"; };
+		C1DAC2AE2968AAC500E35794 /* QueueMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = QueueMain.storyboard; sourceTree = "<group>"; };
+		C1DAC2B02968AAD000E35794 /* StackMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StackMain.storyboard; sourceTree = "<group>"; };
+		C1DAC2B22968AAE100E35794 /* ArrayMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ArrayMain.storyboard; sourceTree = "<group>"; };
+		C1DAC2B42968AAFF00E35794 /* Graph+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Graph+ViewController.swift"; sourceTree = "<group>"; };
+		C1DAC2B62968AB0D00E35794 /* Tree+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tree+ViewController.swift"; sourceTree = "<group>"; };
+		C1DAC2B82968AB1B00E35794 /* LinkedList+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinkedList+ViewController.swift"; sourceTree = "<group>"; };
+		C1DAC2BA2968AB2700E35794 /* Queue+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Queue+ViewController.swift"; sourceTree = "<group>"; };
+		C1DAC2BC2968AB3000E35794 /* Stack+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stack+ViewController.swift"; sourceTree = "<group>"; };
+		C1DAC2BE2968AB3B00E35794 /* Array+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+ViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +189,12 @@
 		C1DAC28A2968A58600E35794 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				C1DAC2A52968AA1800E35794 /* Graph */,
+				C1DAC2A32968AA0F00E35794 /* Tree */,
+				C1DAC2A12968AA0700E35794 /* LinkedList */,
+				C1DAC29F2968A9FE00E35794 /* Queue */,
+				C1DAC29D2968A9F400E35794 /* Stack */,
+				C1DAC29A2968A9D900E35794 /* Array */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -172,6 +202,12 @@
 		C1DAC28B2968A59600E35794 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				C1DAC2A42968AA1500E35794 /* Graph */,
+				C1DAC2A22968AA0C00E35794 /* Tree */,
+				C1DAC2A02968AA0300E35794 /* LinkedList */,
+				C1DAC29E2968A9FA00E35794 /* Queue */,
+				C1DAC29C2968A9F000E35794 /* Stack */,
+				C1DAC2992968A9D500E35794 /* Array */,
 				C1DAC26F2968A0DC00E35794 /* ViewController.swift */,
 			);
 			path = ViewControllers;
@@ -180,9 +216,153 @@
 		C1DAC28C2968A5A200E35794 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				C1DAC2982968A9C600E35794 /* Graph */,
+				C1DAC2972968A9BF00E35794 /* Tree */,
+				C1DAC2962968A9BA00E35794 /* LinkedList */,
+				C1DAC2952968A9B500E35794 /* Queue */,
+				C1DAC2942968A9AF00E35794 /* Stack */,
+				C1DAC2932968A9A800E35794 /* Array */,
 				C1DAC2712968A0DC00E35794 /* Main.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C1DAC2932968A9A800E35794 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				C1DAC2B22968AAE100E35794 /* ArrayMain.storyboard */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		C1DAC2942968A9AF00E35794 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				C1DAC2B02968AAD000E35794 /* StackMain.storyboard */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		C1DAC2952968A9B500E35794 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				C1DAC2AE2968AAC500E35794 /* QueueMain.storyboard */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		C1DAC2962968A9BA00E35794 /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				C1DAC2AA2968AAA200E35794 /* LinkedListMain.storyboard */,
+			);
+			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		C1DAC2972968A9BF00E35794 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				C1DAC2A82968AA9500E35794 /* TreeMain.storyboard */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+		C1DAC2982968A9C600E35794 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				C1DAC2A62968AA8600E35794 /* GraphMain.storyboard */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		C1DAC2992968A9D500E35794 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				C1DAC2BE2968AB3B00E35794 /* Array+ViewController.swift */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		C1DAC29A2968A9D900E35794 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		C1DAC29C2968A9F000E35794 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				C1DAC2BC2968AB3000E35794 /* Stack+ViewController.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		C1DAC29D2968A9F400E35794 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		C1DAC29E2968A9FA00E35794 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				C1DAC2BA2968AB2700E35794 /* Queue+ViewController.swift */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		C1DAC29F2968A9FE00E35794 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		C1DAC2A02968AA0300E35794 /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				C1DAC2B82968AB1B00E35794 /* LinkedList+ViewController.swift */,
+			);
+			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		C1DAC2A12968AA0700E35794 /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		C1DAC2A22968AA0C00E35794 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				C1DAC2B62968AB0D00E35794 /* Tree+ViewController.swift */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+		C1DAC2A32968AA0F00E35794 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+		C1DAC2A42968AA1500E35794 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				C1DAC2B42968AAFF00E35794 /* Graph+ViewController.swift */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		C1DAC2A52968AA1800E35794 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Graph;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,10 +423,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1DAC2AB2968AAA200E35794 /* LinkedListMain.storyboard in Resources */,
+				C1DAC2A72968AA8600E35794 /* GraphMain.storyboard in Resources */,
 				C1DAC2782968A0E000E35794 /* LaunchScreen.storyboard in Resources */,
 				C1DAC28E2968A5DB00E35794 /* Colors.xcassets in Resources */,
+				C1DAC2B12968AAD000E35794 /* StackMain.storyboard in Resources */,
+				C1DAC2A92968AA9500E35794 /* TreeMain.storyboard in Resources */,
+				C1DAC2AF2968AAC500E35794 /* QueueMain.storyboard in Resources */,
 				C1DAC2752968A0DF00E35794 /* Assets.xcassets in Resources */,
 				C1DAC2732968A0DC00E35794 /* Main.storyboard in Resources */,
+				C1DAC2B32968AAE100E35794 /* ArrayMain.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +444,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1DAC2702968A0DC00E35794 /* ViewController.swift in Sources */,
+				C1DAC2BD2968AB3000E35794 /* Stack+ViewController.swift in Sources */,
+				C1DAC2BF2968AB3B00E35794 /* Array+ViewController.swift in Sources */,
 				C1DAC2922968A63400E35794 /* IBInspectable+Extension.swift in Sources */,
+				C1DAC2B72968AB0D00E35794 /* Tree+ViewController.swift in Sources */,
 				C1DAC26C2968A0DC00E35794 /* AppDelegate.swift in Sources */,
+				C1DAC2BB2968AB2700E35794 /* Queue+ViewController.swift in Sources */,
+				C1DAC2B52968AAFF00E35794 /* Graph+ViewController.swift in Sources */,
 				C1DAC26E2968A0DC00E35794 /* SceneDelegate.swift in Sources */,
+				C1DAC2B92968AB1B00E35794 /* LinkedList+ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
