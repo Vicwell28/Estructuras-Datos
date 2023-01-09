@@ -22,6 +22,12 @@ class Graph_ViewController: UIViewController {
         super.viewDidAppear(animated)
     }
     
+    // MARK: - Public Var / Let
+
+    
+    // MARK: - Private Var / Let
+
+    
     // MARK: - IBOutlet
     
     

@@ -71,9 +71,10 @@ extension UIView {
         }
     }
 }
-
-// MARK: - IBOutlet
 // MARK: - Override Func
+// MARK: - Public Let / Var
+// MARK: - Private Let / Var
+// MARK: - IBOutlet
 // MARK: - IBAction
 // MARK: - Public Func
 // MARK: - Private Func
