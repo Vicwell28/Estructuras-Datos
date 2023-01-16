@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C15667952975B12F009AE3DD /* OrderedOneDimensionalArray+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15667942975B12F009AE3DD /* OrderedOneDimensionalArray+ViewController.swift */; };
 		C1A7F381296CA09600A29FFD /* UnorderedOneDimensionalArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A7F380296CA09600A29FFD /* UnorderedOneDimensionalArray.swift */; };
 		C1A7F383296CA0E300A29FFD /* OrderedOneDimensionalArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A7F382296CA0E300A29FFD /* OrderedOneDimensionalArray.swift */; };
 		C1BDD140296A064600D55313 /* ClassArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BDD13F296A064600D55313 /* ClassArray.swift */; };
@@ -29,11 +30,12 @@
 		C1DAC2B92968AB1B00E35794 /* LinkedList+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DAC2B82968AB1B00E35794 /* LinkedList+ViewController.swift */; };
 		C1DAC2BB2968AB2700E35794 /* Queue+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DAC2BA2968AB2700E35794 /* Queue+ViewController.swift */; };
 		C1DAC2BD2968AB3000E35794 /* Stack+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DAC2BC2968AB3000E35794 /* Stack+ViewController.swift */; };
-		C1DAC2BF2968AB3B00E35794 /* Array+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DAC2BE2968AB3B00E35794 /* Array+ViewController.swift */; };
+		C1DAC2BF2968AB3B00E35794 /* UnorderedOneDimensionalArray+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DAC2BE2968AB3B00E35794 /* UnorderedOneDimensionalArray+ViewController.swift */; };
 		C1DAC2C12968B49600E35794 /* ViewController+Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DAC2C02968B49600E35794 /* ViewController+Loader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C15667942975B12F009AE3DD /* OrderedOneDimensionalArray+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderedOneDimensionalArray+ViewController.swift"; sourceTree = "<group>"; };
 		C1A7F380296CA09600A29FFD /* UnorderedOneDimensionalArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnorderedOneDimensionalArray.swift; sourceTree = "<group>"; };
 		C1A7F382296CA0E300A29FFD /* OrderedOneDimensionalArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderedOneDimensionalArray.swift; sourceTree = "<group>"; };
 		C1BDD13F296A064600D55313 /* ClassArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassArray.swift; sourceTree = "<group>"; };
@@ -58,7 +60,7 @@
 		C1DAC2B82968AB1B00E35794 /* LinkedList+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinkedList+ViewController.swift"; sourceTree = "<group>"; };
 		C1DAC2BA2968AB2700E35794 /* Queue+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Queue+ViewController.swift"; sourceTree = "<group>"; };
 		C1DAC2BC2968AB3000E35794 /* Stack+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stack+ViewController.swift"; sourceTree = "<group>"; };
-		C1DAC2BE2968AB3B00E35794 /* Array+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+ViewController.swift"; sourceTree = "<group>"; };
+		C1DAC2BE2968AB3B00E35794 /* UnorderedOneDimensionalArray+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UnorderedOneDimensionalArray+ViewController.swift"; sourceTree = "<group>"; };
 		C1DAC2C02968B49600E35794 /* ViewController+Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Loader.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -306,7 +308,8 @@
 		C1DAC2992968A9D500E35794 /* Array */ = {
 			isa = PBXGroup;
 			children = (
-				C1DAC2BE2968AB3B00E35794 /* Array+ViewController.swift */,
+				C1DAC2BE2968AB3B00E35794 /* UnorderedOneDimensionalArray+ViewController.swift */,
+				C15667942975B12F009AE3DD /* OrderedOneDimensionalArray+ViewController.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -476,13 +479,14 @@
 				C1DAC2702968A0DC00E35794 /* ViewController.swift in Sources */,
 				C1DAC2C12968B49600E35794 /* ViewController+Loader.swift in Sources */,
 				C1DAC2BD2968AB3000E35794 /* Stack+ViewController.swift in Sources */,
-				C1DAC2BF2968AB3B00E35794 /* Array+ViewController.swift in Sources */,
+				C1DAC2BF2968AB3B00E35794 /* UnorderedOneDimensionalArray+ViewController.swift in Sources */,
 				C1BDD140296A064600D55313 /* ClassArray.swift in Sources */,
 				C1DAC2922968A63400E35794 /* IBInspectable+Extension.swift in Sources */,
 				C1DAC2B72968AB0D00E35794 /* Tree+ViewController.swift in Sources */,
 				C1DAC26C2968A0DC00E35794 /* AppDelegate.swift in Sources */,
 				C1DAC2BB2968AB2700E35794 /* Queue+ViewController.swift in Sources */,
 				C1DAC2B52968AAFF00E35794 /* Graph+ViewController.swift in Sources */,
+				C15667952975B12F009AE3DD /* OrderedOneDimensionalArray+ViewController.swift in Sources */,
 				C1DAC26E2968A0DC00E35794 /* SceneDelegate.swift in Sources */,
 				C1DAC2B92968AB1B00E35794 /* LinkedList+ViewController.swift in Sources */,
 			);

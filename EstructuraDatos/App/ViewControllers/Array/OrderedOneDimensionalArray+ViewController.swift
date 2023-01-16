@@ -1,13 +1,13 @@
 //
-//  Array+ViewController.swift
+//  OrderedOneDimensionalArray+ViewController.swift
 //  EstructuraDatos
 //
-//  Created by soliduSystem on 06/01/23.
+//  Created by soliduSystem on 16/01/23.
 //
 
 import UIKit
 
-class Array_ViewController: UIViewController {
+class OrderedOneDimensionalArray_ViewController: UIViewController {
 
     // MARK: - Override Func
     override func viewDidLoad() {
@@ -27,7 +27,7 @@ class Array_ViewController: UIViewController {
         self.view.endEditing(true)
     }
     
-    let PruebaArray = UnorderedOneDimensionalArray(size: 10)
+    let PruebaArray = OrderedOneDimensionalArray(size: 10)
     
     // MARK: - IBOutlet
     @IBOutlet weak var textView: UITextView!
@@ -72,7 +72,7 @@ class Array_ViewController: UIViewController {
 }
 
 // MARK: - Public Func
-extension Array_ViewController : UITextFieldDelegate{
+extension OrderedOneDimensionalArray_ViewController : UITextFieldDelegate{
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         self.view.endEditing(true)
         return true
@@ -80,16 +80,16 @@ extension Array_ViewController : UITextFieldDelegate{
 }
 
 // MARK: - Private Func
-extension Array_ViewController {
+extension OrderedOneDimensionalArray_ViewController {
     
 }
 
 // MARK: - Services
-extension Array_ViewController {
+extension OrderedOneDimensionalArray_ViewController {
     
 }
 
 // MARK: - Other
-extension Array_ViewController {
+extension OrderedOneDimensionalArray_ViewController {
     
 }
