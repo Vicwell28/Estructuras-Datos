@@ -120,7 +120,17 @@ class OrderedOneDimensionalArray {
     
     
     func update(element x: Int, in y: Int) -> (Int?, Int?) {
-
+        
+        if let _ = self.search(for: x) {
+            
+            if let xx = self.remove(in: x) {
+                
+                if let yy = self.Insert(in: y) {
+                    return (xx, yy)
+                }
+            }
+            return (x, nil)
+        }
        return (nil, nil)
     }
     
